@@ -13,6 +13,7 @@ body {
 .container-fluid {
     background-color: white !important;
     color: black;
+  box-shadow:  0 10px 15px rgba(25,25,25,.1);         
 }
 
 .nav-item {
@@ -34,6 +35,8 @@ body {
     background-image: url('images/architect.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    
 }
 
 .two .col-12 {
@@ -67,10 +70,14 @@ body {
 
     width: 100%;
     left: 30px;
+    box-shadow:  0 10px 15px rgba(25,25,25,.1);
 }
 .images img:hover {
 
     opacity: 0.6;
+}
+.card{
+    box-shadow:  0 10px 15px rgba(25,25,25,.1);
 }
 .card img:hover{
     opacity: 0.7;
@@ -92,5 +99,13 @@ body {
     background-image: url("images/map.jpg");
     background-position: center center;
     background-size: cover;
+    background-attachment: fixed;
 
+}
+input{
+    box-shadow:  0 6px 8px rgba(25,25,25,.1);
+    
+}
+ .as{
+    box-shadow:  0 10px 15px rgba(25,25,25,.1);
 }
