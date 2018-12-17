@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: white !important;
+    color: black;
+}
+
+.nav-item {
+    color: black;
+    font-size: 20px;
+    margin-left: 15px;
+    padding: 8px 16px;
+}
+
+.nav-item:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+.two {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url('images/architect.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.two .col-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20%;
+}
+
+.bb {
+    background-color: black;
+    padding: 12px 19px;
+    opacity: 0.7;
+    font-size: 20px
+}
+
+.bc {
+    color: white;
+    font-size: 32px;
+    padding-left: 29px;
+    font-size: 36px;
+}
+
+.navbar-toggler-icon {
+    background-color: black !important;
+    color: white !important;
+}
+
+.images img {
+
+    width: 100%;
+    left: 30px;
+}
+.images img:hover {
+
+    opacity: 0.6;
+}
+.card img:hover{
+    opacity: 0.7;
+}
+
+.ic {
+    padding: 7px 20px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    font-size: 12px;
+}
+.map{
+    max-width: 100%;
+    height: 90vh;
+    background-image: url("images/map.jpg");
+    background-position: center center;
+    background-size: cover;
+
+}
